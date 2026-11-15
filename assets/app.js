@@ -13,33 +13,33 @@
 
   const CLIPPY_TIPS = {
     'index': [
-      '欢迎来到 ECON5103 帮助中心！先看“四象限一秒定模型雷达”，考试读到关键词直接对号入座。',
-      '左侧【速算器】标签内置了 3 人 Gini、开放有税乘数和银行杠杆破产测试，做题时可随时验算！',
-      '右上角下拉框支持切换 Windows XP 经典蓝（Luna）、橄榄绿（Olive）和银色（Silver）主题，也能切 2000s 点阵字体模式。'
+      '左侧“目录 / 索引 / 验算”三个标签可以切换章节目录、英文术语索引与数值验算器。',
+      '“验算”标签内置三人 Gini 系数、开放经济乘数与银行杠杆计算，做题时可用来复核结果。',
+      '右上角下拉框支持切换 Windows XP 经典蓝、橄榄绿与银色主题，也支持点阵宋体或大字号阅读。'
     ],
     'lesson-1': [
-      '第 1 课提醒：算 Economic Rent 时，已支付且不可退回的 Sunk Cost 两边都别扣！',
-      '垄断大题两连坑：线性反需求 P = a - bQ 的边际收益斜率是 2b（MR = a - 2bQ）；算 Profit 务必用 PS - FC，别漏减固定成本！',
-      '从量税归宿口诀：谁更缺乏价格弹性（图像更陡峭），谁就承担更大比例的净税负。'
+      '计算经济租（Economic Rent）时，已支付且不可退回的沉没成本在比较的两个选项中都应忽略。',
+      '线性反需求 P = a - bQ 对应的边际收益斜率是 2b（MR = a - 2bQ）；求垄断利润时需从生产者剩余中减去固定成本 FC。',
+      '从量税归宿规律：供需双方中价格弹性更小（曲线更陡峭）的一侧承担更大比例净税负。'
     ],
     'lesson-2': [
-      '第 2 课提醒：庇古税率必须代在社会最优产量 Q_B 处的 MEC(Q_B)，千万别代成私人过剩产量 Q_A！',
-      '看到“失业率下降”先别急着判经济变好！检查气馁退市（LF 缩小），核对 Employment Rate (E / Pop_wa) 最稳。',
-      '商业银行放贷瞬间同步创造存款（Bank money），资产负债同增但 Net worth 不变；坏账比例 > 1/Leverage 即 Insolvent！'
+      '最优庇古税税率需按社会最优产量 Q_B 处的边际外部成本 MEC(Q_B) 设定，不要代入私人均衡点 Q_A。',
+      '判断劳动力市场变化时，若存在气馁退出（劳动力 LF 缩小），单看失业率 u 可能带来偏差，应对照就业率 E / Pop_wa。',
+      '商业银行发放贷款时在负债端同步记入存款，直接增加广义货币；当坏账损失比例超过 1 / Leverage 时净值转为负值。'
     ],
     'lesson-3': [
-      '第 3 课核心钉：开放有税乘数 k = 1 / [1 - c1(1 - t) + m]，进口是漏出项，分母末尾一定是 +m，不是 -m！',
-      'I(r) 曲线区分：实际利率 r 改变是“沿线滑动”；预期利润 Π、信心或税成本改变才是“整条曲线平移”。',
-      '紧缩财政 Austerity 砍 G 后，Y 跌会导致税收 tY 自动塌陷，净预算改善 Δ(T-G) = tΔY - ΔG 会远小于 ΔG 面额。'
+      '开放有税乘数 k = 1 / [1 - c1(1 - t) + m] 中，进口 m 属于漏出项，分母末端需要加上 +m。',
+      '投资曲线 I(r) 的变动需区分原因：实际利率 r 变化表现为沿着既有曲线滑动，预期利润 Π 或商业信心改变才导致整条曲线左右平移。',
+      '衰退期削减政府购买 G 会使产出与税收 tY 同步减少，因此预算净变化 Δ(T - G) = tΔY - ΔG 的改善幅度小于削减金额本身。'
     ],
     'lesson-4': [
-      '第 4 课提醒：Disinflation 只是通胀率从高回落但物价还在涨（π > 0）；Deflation 才是物价下跌（π < 0），会引爆推迟消费与实债飙升。',
-      'Phillips 曲线稳态 u* 满足 Bargaining gap = 0，此时 π 稳定在预期水平 π^e（未必是 0%）。硬压 u < u* 会走出 3%→5%→7% 螺旋！',
-      '答题写央行利率传导务必凑齐 4 条通道：市场利率 I(r)、资产房价净值 c0、利润信心预期、汇率变动影响 NX。'
+      '反通胀（Disinflation）指通胀率回落但仍为正值（π > 0），通缩（Deflation）则指物价绝对下跌（π < 0），会诱导推迟耐用品消费并加重实际债务。',
+      '菲利普斯曲线的稳态 u* 满足议价缺口为 0，此时通胀稳定在预期水平 π^e（未必等于 0%）；持续使 u 低于 u* 会不断抬高通胀预期。',
+      '阐述货币政策传导时注意覆盖四条路径：市场利率 I(r)、资产与房价财富 c0、企业盈利预期以及汇率变动对净出口 NX 的影响。'
     ],
     'formula-sheet': [
-      'A4 打印小提示：点击工具栏“打印本页”或 Ctrl/Cmd+P，网页会自动隐藏左侧栏和 XP 边框，排版成干净的白底 A4 考前速查！',
-      '考前最后 5 分钟重点盯紧“十大绝杀陷阱扫雷榜”和“SQ1–SQ7 答题挂钩总表”。'
+      '点击工具栏“打印 / 存 PDF”或按 Ctrl/Cmd + P 时，页面会自动隐藏侧边栏与窗口边框以便打印排版。',
+      '考前对照复习时，可先浏览“沿线移动 vs 整线平移”矩阵，再回顾常见易错点与 SQ1–SQ7 对应模型。'
     ]
   };
 
@@ -116,7 +116,7 @@
   function syncAnswerSummary(det) {
     const label = det.querySelector('.xp-answer-label');
     if (label) {
-      label.textContent = det.open ? '📂 收起参考答案与解析' : '📁 查看参考答案与踩分点';
+      label.textContent = det.open ? '收起参考答案' : '查看参考答案';
     }
   }
 
@@ -468,7 +468,7 @@
     const doneCount = Object.values(state).filter(Boolean).length;
     const statusText = document.getElementById('status-progress-text');
     const statusBar = document.getElementById('status-progress-bar');
-    if (statusText) statusText.textContent = `已掌握 ${doneCount} / ${TOTAL_EXERCISES} 题`;
+    if (statusText) statusText.textContent = `已完成 ${doneCount} / ${TOTAL_EXERCISES} 题`;
     if (statusBar) {
       statusBar.max = TOTAL_EXERCISES;
       statusBar.value = doneCount;
@@ -477,7 +477,7 @@
       const key = badge.getAttribute('data-lesson-progress');
       const ids = LESSON_QUESTION_IDS[key] || [];
       const done = ids.filter((id) => state[id]).length;
-      badge.textContent = `练习进度 ${done}/${ids.length}`;
+      badge.textContent = `已完成 ${done} / ${ids.length}`;
     });
   }
 
