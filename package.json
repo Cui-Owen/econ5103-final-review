@@ -1,0 +1,16 @@
+{
+  "name": "econ5103-final-review",
+  "version": "1.0.0",
+  "description": "ECON5103 Business Economics Final Review — Windows XP CHM Help Center edition",
+  "private": true,
+  "scripts": {
+    "build": "node build-site.mjs",
+    "verify": "node verify-site.mjs",
+    "serve": "python3 -m http.server 4173"
+  },
+  "dependencies": {
+    "katex": "^0.16.11",
+    "marked": "^14.0.0",
+    "xp.css": "^0.2.6"
+  }
+}
